@@ -30,7 +30,6 @@ pygame.display.set_caption(f'Juego de la vibora: Proyecto Final')
 # *** Cargar imagenes
 iniciar_imagen = pygame.image.load('imagenes/Iniciar.png').convert_alpha()
 salir_imagen = pygame.image.load('imagenes/Salir.png').convert_alpha()
-controles_imagen = pygame.image.load('imagenes/Controles.png').convert_alpha()
 logo = pygame.image.load('imagenes/logo_trans.png').convert_alpha()
 # *** ___________ Crear botones
 iniciar_boton = botones.Button(230,125, iniciar_imagen, .8)
