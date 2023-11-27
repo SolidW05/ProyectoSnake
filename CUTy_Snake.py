@@ -26,7 +26,7 @@ yummy.set_volume(200)
 ancho = 800
 largo = 600
 pantalla = pygame.display.set_mode((ancho, largo))
-pygame.display.set_caption(f'CUT Snake')
+pygame.display.set_caption(f'CUTy Snake')
 
 # *** Cargar imagenes
 iniciar_imagen = pygame.image.load('imagenes/Iniciar.png').convert_alpha()
